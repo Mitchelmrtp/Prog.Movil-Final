@@ -1,0 +1,15 @@
+POST http://192.168.18.35:4912/user/validate
+Content-Type: application/x-www-form-urlencoded
+
+user=mitchelmrtp
+&password=123
+
+#############################################
+POST http://192.168.18.32:4912/user/reset
+Content-Type: application/x-www-form-urlencoded
+
+dni=12345698666
+&email=20180038@aloe.ulima.edu.pe
+
+#############################################
+GET http://192.168.18.35:4912/level/list

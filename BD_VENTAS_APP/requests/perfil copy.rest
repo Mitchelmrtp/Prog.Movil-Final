@@ -1,0 +1,7 @@
+#############################################
+GET http://192.168.18.35:4912/Perfiles/list
+Content-Type: application/x-www-form-urlencoded
+  code=20180038
+
+###############
+get http://192.168.18.35:4912/Perfiles/list?code=20180038

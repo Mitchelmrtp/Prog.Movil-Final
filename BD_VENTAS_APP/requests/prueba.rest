@@ -1,0 +1,13 @@
+POST http://localhost:4569/user/validate
+Content-Type: application/x-www-form-urlencoded
+
+user=20180038&password=123
+
+#############################################
+POST http://localhost:4569/user/reset
+Content-Type: application/x-www-form-urlencoded
+
+dni=12345698&email=20180038@aloe.ulima.edu.pe
+
+#############################################
+GET http://localhost:4912/perfil/producto?perfil_id=1&producto_id=599
